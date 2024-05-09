@@ -1,4 +1,4 @@
-Tensorflow version of model Spec_CNN of conference AI and Optical Data Sciences V; 1290309 (2024), SPIE OPTO, 2024, San Francisco, California, United States
+Tensorflow version of model Spec_CNN presented in conference: AI and Optical Data Sciences V; 1290309 (2024), SPIE OPTO, 2024, San Francisco, California, United States
 
 Mineral classification using convolutional neural networks and SWIR hyperspectral imaging
 
