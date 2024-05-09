@@ -1,12 +1,10 @@
 import warnings
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.layers import Input, Concatenate
+from tensorflow.keras.utils import set_random_seed
+from tensorflow.keras.layers import Input, Concatenate, Conv1D, MaxPooling1D, Flatten, Dense, Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.initializers import RandomNormal
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.utils import set_random_seed
-from tensorflow.keras.callbacks import ModelCheckpoint
 
 set_random_seed(42)
 warnings.filterwarnings('ignore')
