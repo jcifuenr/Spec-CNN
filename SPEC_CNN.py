@@ -13,12 +13,12 @@ warnings.filterwarnings('ignore')
 initializer = tf.keras.initializers.RandomNormal(mean=0.0, stddev=0.5, seed=42)
 
 wave_shape = 256
-Input_shape_scpec = (256,1)
+input_shape_spec = (256,1)
 num_classes = 9
 
 def SPEC_CNN():
 
-    input_shape = Input_shape_scpec
+    input_shape = input_shape_spec
     inputs = Input(shape=input_shape)
     x = Dense(wave_shape,kernel_regularizer=tf.keras.regularizers.L1(0.01), kernel_initializer=initializer)(inputs)
     # Block 1
