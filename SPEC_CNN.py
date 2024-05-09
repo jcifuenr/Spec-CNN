@@ -1,5 +1,4 @@
 import warnings
-import numpy as np
 import tensorflow as tf
 from tensorflow.keras.utils import set_random_seed
 from tensorflow.keras.layers import Input, Concatenate, Conv1D, MaxPooling1D, Flatten, Dense, Dropout
