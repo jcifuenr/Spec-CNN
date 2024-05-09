@@ -53,7 +53,7 @@ def SPEC_CNN():
     x = Concatenate()([x, Flatten()(skip3)])
 
     x = Dense(512, activation='linear')(x)
-    x = Dropout(0.5)(x)
+    x = Dropout(0.25)(x)
     outputs = Dense(num_classes, activation='softmax')(x)
 
     model = Model(inputs=inputs, outputs=outputs)
