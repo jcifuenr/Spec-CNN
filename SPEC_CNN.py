@@ -5,7 +5,6 @@ from tensorflow.keras.layers import Input, Concatenate
 from tensorflow.keras.models import Model
 from tensorflow.keras.initializers import RandomNormal
 from tensorflow.keras.callbacks import ModelCheckpoint
-from sklearn.model_selection import KFold, StratifiedKFold
 from tensorflow.keras.utils import set_random_seed
 from tensorflow.keras.callbacks import ModelCheckpoint
 
